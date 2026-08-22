@@ -250,3 +250,34 @@ The final model combines:
 - 🎚️ Classification Threshold Optimization
 - 🏆 Final Model Evaluation
 ---
+# 🖥️ Streamlit Application
+
+The trained machine learning model was integrated into an interactive **Streamlit application** that allows users to enter customer information and receive a real-time personal-loan prediction.
+
+<p align="center">
+  <img src="image/streamlit_screansort.png" width="750">
+</p>
+
+### 🎯 Application Features
+
+- 👤 Customer information input
+- 💰 Financial and banking information
+- 🤖 Real-time loan acceptance prediction
+- 📈 Loan acceptance probability
+- 🎚️ Optimized classification threshold
+- 🧠 Final predicted class
+
+### 🔄 Prediction Flow
+
+```text
+Customer Information
+        ↓
+Data Preprocessing
+        ↓
+Trained Gradient Boosting Model
+        ↓
+Loan Acceptance Probability
+        ↓
+Optimized Threshold (0.3815)
+        ↓
+Final Prediction
