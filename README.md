@@ -16,7 +16,7 @@
 
 <br><br>
 
-<img src="image/project_first_page.png" width="700">
+<img src="image/project_first_page.png" width="1000" height="350">
 
 </div>
 
