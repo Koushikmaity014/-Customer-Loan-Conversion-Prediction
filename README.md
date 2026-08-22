@@ -104,6 +104,7 @@ Because of this class imbalance, model performance is evaluated using **Precisio
 
 </tr>
 </table>
+</div>
 ---
 # 🔎 Exploratory Data Analysis
 
