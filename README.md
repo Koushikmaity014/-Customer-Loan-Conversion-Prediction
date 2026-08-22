@@ -105,8 +105,10 @@ Because of this class imbalance, model performance is evaluated using **Precisio
 </tr>
 </table>
 </div>
+
+
 ---
-# 🔎 Exploratory Data Analysis
+#  🔎 Exploratory Data Analysis
 
 Exploratory Data Analysis was performed to understand customer characteristics,
 feature distributions, relationships between variables, and patterns associated
