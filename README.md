@@ -221,7 +221,8 @@ Instead of directly using the default probability threshold, different threshold
 <p align="center">
   <img src="image/optimaization_process.png" width="750">
 </p>
----
+
+
 # 🏆 Final Model Performance
 
 After feature selection, Optuna hyperparameter optimization, and classification threshold tuning, the final model was evaluated on the **unseen test dataset**.
@@ -229,6 +230,7 @@ After feature selection, Optuna hyperparameter optimization, and classification 
 <p align="center">
   <img src="image/05_final_model_performance.png" width="800">
 </p>
+
 ---
 ### 📊 Final Test Performance
 
