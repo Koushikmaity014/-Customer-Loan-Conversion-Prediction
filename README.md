@@ -66,3 +66,29 @@ The primary goal is to build a machine learning system that can:
 </div>
 
 ---
+# 📊 Dataset
+
+The project uses the **Bank Personal Loan Modelling** dataset obtained from **Kaggle**. The dataset contains **5,000 bank customers** with demographic, financial, and banking relationship information.
+
+<p align="center">
+  <img src="image/data_samary.png" width="800">
+</p>
+
+### 🎯 Target Variable
+
+The target variable is **`Personal Loan`**, which indicates whether a customer accepted the personal loan offered during the previous campaign.
+
+**0 → Did not accept the personal loan**  
+**1 → Accepted the personal loan**
+
+### ⚠️ Class Distribution
+
+Only **480 customers (9.6%)** accepted the loan, while **4,520 customers (90.4%)** did not. This makes the dataset a **highly imbalanced binary classification problem**.
+
+<p align="center">
+  <img src="image/02_target_distribution.png" width="450">
+</p>
+
+Because of the class imbalance, model performance is evaluated using **Precision, Recall, F1 Score, ROC-AUC, and PR-AUC** rather than relying on accuracy alone.
+
+---
