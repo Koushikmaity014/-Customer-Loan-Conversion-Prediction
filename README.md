@@ -58,5 +58,5 @@ The primary goal is to build a machine learning system that can:
 
 ### 🔄 From Mass Marketing to Targeted Marketing
 <p align="center">
-  <img src="image/business problem.png" width="950">
+  <img src="image/business_problem.png" width="950">
 </p>
