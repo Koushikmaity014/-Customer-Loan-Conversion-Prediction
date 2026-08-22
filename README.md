@@ -188,3 +188,33 @@ Because the dataset is highly imbalanced, multiple evaluation metrics were consi
 The model comparison provided a baseline for selecting the most promising algorithm before applying **feature selection and Optuna hyperparameter optimization**.
 
 ---
+# ⚡ Hyperparameter Optimization
+
+After comparing the baseline classification models, **Optuna** was used to optimize the hyperparameters of the selected model.
+
+Optuna performs automated hyperparameter search by exploring different parameter combinations and identifying the configuration that provides the best validation performance.
+
+<p align="center">
+  <img src="image/04_optuna_improvement.png" width="800">
+</p>
+
+### 🎯 Optimization Strategy
+
+The optimization process focused on improving the model's **F1 Score**, which is particularly important for this imbalanced classification problem.
+
+```text
+Baseline Model
+      ↓
+Define Hyperparameter Search Space
+      ↓
+Optuna Trial
+      ↓
+Stratified Cross-Validation
+      ↓
+Evaluate F1 Score
+      ↓
+Search for Better Parameters
+      ↓
+Best Hyperparameters
+      ↓
+Optimized Model
