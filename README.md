@@ -218,16 +218,7 @@ Instead of directly using the default probability threshold, different threshold
 </p>
 
 ### 🔄 Optimization Process
+<p align="center">
+  <img src="image/optimaization_process.png" width="750">
+</p>
 
-```text
-Predicted Probabilities
-        ↓
-Evaluate Multiple Thresholds
-        ↓
-Calculate Precision & Recall
-        ↓
-Calculate F1 Score
-        ↓
-Select Best Threshold
-        ↓
-Optimal Threshold = 0.3815
