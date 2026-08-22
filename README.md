@@ -36,5 +36,5 @@ The project follows a complete machine learning workflow, starting from **data e
 ### 🔄 Project Workflow
 
 <p align="center">
-  <img src="image/project_workflow.png" width="950">
+  <img src="image/project workflow.png" width="950">
 </p>
