@@ -2,14 +2,14 @@
 
 🏦 Customer Loan Conversion Prediction
 
-End-to-End Machine Learning System for Personal Loan Conversion
+🎯 Predicting Which Bank Customers Are Most Likely to Accept a Personal Loan
 
 <p>
   <a href="https://customer-loan-conversion-prediction-cr9k.onrender.com/">
-    <img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-Visit%20Application-00C853?style=for-the-badge&logo=streamlit&logoColor=white">
+    <img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-TRY%20THE%20MODEL-00C853?style=for-the-badge&logo=streamlit&logoColor=white">
   </a>
   <a href="https://github.com/Koushikmaity014/-Customer-Loan-Conversion-Prediction">
-    <img src="https://img.shields.io/badge/💻%20GITHUB-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/💻%20GITHUB-SOURCE%20CODE-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
 
@@ -19,56 +19,157 @@ End-to-End Machine Learning System for Personal Loan Conversion
   <img src="https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
   <img src="https://img.shields.io/badge/Optuna-Hyperparameter%20Tuning-4B8BBE?style=flat-square">
   <img src="https://img.shields.io/badge/Streamlit-Deployment-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
-  <img src="https://img.shields.io/badge/Render-Cloud%20Deployment-46E3B7?style=flat-square&logo=render&logoColor=black">
+  <img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=flat-square&logo=render&logoColor=black">
 </p>
 
 </div>
 
-📸 Application Preview
+🚀 Project at a Glance
 
-<p align="center">
-  <img src="images/app_screenshot.png" width="850">
-</p>
+📌
 
-<p align="center">
-  <b>Interactive Streamlit application for real-time customer loan conversion prediction.</b>
-</p>
+Details
 
-📌 Project Overview
+Domain
+
+Banking / Financial Marketing
+
+Problem
+
+Personal Loan Conversion Prediction
+
+Dataset
+
+Bank Personal Loan Modelling
+
+Source
+
+Kaggle
+
+Customers
+
+5,000
+
+Positive Customers
+
+480
+
+Positive Rate
+
+9.6%
+
+Final Model
+
+Tuned Gradient Boosting
+
+Feature Selection
+
+Permutation Importance
+
+Hyperparameter Tuning
+
+Optuna
+
+Validation
+
+Stratified 5-Fold Cross-Validation
+
+Final Features
+
+Income, Education, Family, CCAvg
+
+Optimized Threshold
+
+0.3815
+
+Test F1 Score
+
+93.62%
+
+ROC-AUC
+
+99.80%
+
+PR-AUC
+
+98.53%
+
+Deployment
+
+Streamlit + Render
+
+🌐 Live Application
+
+<div align="center">
+
+🚀 Try the deployed machine learning model
+
+<a href="https://customer-loan-conversion-prediction-cr9k.onrender.com/">
+
+<img src="https://img.shields.io/badge/OPEN%20LIVE%20APPLICATION-00C853?style=for-the-badge&logo=streamlit&logoColor=white">
+
+</a>
+
+<br><br>
+
+Live URL:
+https://customer-loan-conversion-prediction-cr9k.onrender.com/
+
+</div>
+
+📌 1. Project Overview
 
 Customer Loan Conversion Prediction is an end-to-end machine learning project developed to predict whether an existing bank customer is likely to accept a personal loan.
 
-The project uses customer demographic, financial, and banking relationship information to identify high-potential customers and support more targeted marketing campaigns.
+The project is based on customer demographic, financial, and banking relationship information. The goal is to identify high-potential customers so that a bank can target its marketing campaigns more efficiently.
 
-The complete workflow covers Exploratory Data Analysis, Data Preprocessing, Feature Selection, Model Comparison, Stratified Cross-Validation, Optuna Hyperparameter Optimization, Classification Threshold Optimization, Model Evaluation, Model Serialization, and Streamlit Deployment.
+Instead of contacting the complete customer base, the model can help the bank prioritize customers who have a higher probability of accepting a personal loan.
 
-🎯 Business Problem
+The project covers the complete machine learning lifecycle:
 
-Banks have a large number of existing customers who use their deposit and other banking services. Some of these customers may also be potential personal-loan customers.
+Data → EDA → Preprocessing → Model Comparison → Feature Selection → Cross-Validation → Optuna Tuning → Threshold Optimization → Evaluation → Model Serialization → Deployment
 
-The objective is to identify customers who are more likely to accept a personal loan so that the bank can focus its marketing campaign on high-potential customers instead of contacting the entire customer base.
+🎯 2. Business Problem
 
-Business Benefits
+A bank may have thousands of existing liability customers, but only a small percentage may be interested in a personal loan.
 
-🎯 Better customer targeting
+A marketing campaign that contacts every customer can consume significant time and budget.
 
-📈 Higher potential loan conversion
+The business question is:
 
-💰 Reduced marketing expenditure
+Which existing customers are most likely to accept a personal loan?
 
-⚡ More efficient campaigns
+Business Objective
+
+flowchart LR
+    A["🏦 Existing Customers"] --> B["📊 Customer Data"]
+    B --> C["🤖 ML Prediction"]
+    C --> D["📈 Loan Probability"]
+    D --> E["🎯 High-Potential Customers"]
+    E --> F["📣 Targeted Campaign"]
+    F --> G["💰 Better Marketing Efficiency"]
+
+Expected Business Benefits
+
+🎯 More targeted marketing
+
+💰 Reduced campaign cost
+
+📈 Better conversion potential
+
+⚡ Efficient allocation of marketing resources
 
 👥 Identification of high-potential customers
 
-📊 Dataset
+📊 3. Dataset
 
 The project uses the Bank Personal Loan Modelling dataset obtained from Kaggle.
 
-The dataset contains information about 5,000 bank customers, including demographic, financial, and banking relationship attributes.
+The dataset contains 5,000 customer records with demographic, financial, and banking relationship information.
 
 Dataset Summary
 
-Property
+Metric
 
 Value
 
@@ -76,32 +177,38 @@ Value
 
 5,000
 
-✅ Loan Accepted
-
-480
-
 ❌ Loan Not Accepted
 
 4,520
+
+✅ Loan Accepted
+
+480
 
 🎯 Positive Class
 
 9.6%
 
-🎯 Target Variable
+🎯 Target
 
 Personal Loan
 
-Target Variable
+Target Distribution
 
-Personal Loan = 0 → Customer did not accept the loan
-Personal Loan = 1 → Customer accepted the loan
+pie showData
+    title Personal Loan Distribution
+    "Did Not Accept Loan - 90.4%" : 4520
+    "Accepted Loan - 9.6%" : 480
 
-The dataset has a significant class imbalance because only 9.6% of customers accepted the personal loan.
+The dataset is highly imbalanced. Only 480 out of 5,000 customers accepted the personal loan.
 
-Therefore, model evaluation focuses on Precision, Recall, F1 Score, ROC-AUC, and PR-AUC, rather than relying only on accuracy.
+Because of this imbalance, accuracy alone is not sufficient for evaluating the model.
 
-🧩 Features
+The project therefore emphasizes:
+
+Precision + Recall + F1 Score + ROC-AUC + PR-AUC
+
+🧩 4. Feature Description
 
 Feature
 
@@ -159,183 +266,190 @@ Personal Loan
 
 Target variable
 
-🔎 Exploratory Data Analysis
+🔎 5. Exploratory Data Analysis
 
-The dataset was explored to understand customer characteristics, feature distributions, relationships between variables, and factors associated with personal-loan acceptance.
+The EDA stage was used to understand:
 
-Analysis Performed
+Dataset structure
 
-📋 Dataset structure and data types
+Data types
 
-🔍 Missing-value analysis
+Missing values
 
-🔁 Duplicate detection
+Duplicate observations
 
-📊 Target-class distribution
+Numerical distributions
 
-📈 Numerical feature distributions
+Categorical distributions
 
-📊 Categorical feature analysis
+Outliers
 
-📦 Outlier analysis
+Correlations
 
-🔗 Correlation analysis
+Feature-target relationships
 
-🎯 Feature-versus-target analysis
-
-👥 Customer segmentation analysis
+Customer characteristics
 
 Key Findings
 
-The target variable is highly imbalanced, with only 9.6% positive cases.
+The target variable is highly imbalanced with a 9.6% positive rate.
 
 Income showed a strong relationship with personal-loan acceptance.
 
-Age and Experience are highly correlated.
+Age and Experience are strongly related.
 
-Income and CCAvg are highly correlated.
+Income and CCAvg are strongly related.
 
 No missing values were found.
 
 No duplicate rows were found.
 
-Because of the class imbalance, accuracy alone was not considered sufficient for model evaluation. Precision, Recall, F1 Score, ROC-AUC, and PR-AUC were also considered.
+💰 6. Income and Loan Conversion
 
-🎯 Target Distribution
+Income was one of the most important variables in the final model.
 
-<p align="center">
-  <img src="images/target_distribution.png" width="750">
-</p>
+Higher-income customers generally showed a greater tendency to accept the personal loan.
 
-The dataset contains 4,520 customers who did not accept the loan and 480 customers who accepted it.
+xychart-beta
+    title "Illustrative Relationship: Income and Loan Conversion"
+    x-axis "Income Level" [Low, Medium, High]
+    y-axis "Relative Loan Conversion" 0 --> 100
+    bar [10, 28, 65]
 
-This results in a positive-class rate of 9.6%, making this an imbalanced classification problem.
+The chart above is a conceptual visualization of the observed relationship. It is included to explain the business pattern; it is not presented as an exact recalculation of the original dataset.
 
-💰 Income and Loan Conversion
+🎓 7. Education and Loan Conversion
 
-<p align="center">
-  <img src="images/income_vs_loan.png" width="750">
-</p>
+Education level was also analyzed to understand differences in loan acceptance across customer groups.
 
-Income was one of the most informative variables for predicting personal-loan acceptance. Customers with higher income levels showed a greater tendency toward loan acceptance.
+xychart-beta
+    title "Loan Acceptance Across Education Levels"
+    x-axis "Education Level" [Undergraduate, Graduate, Advanced]
+    y-axis "Relative Acceptance" 0 --> 100
+    bar [15, 30, 55]
 
-🎓 Education and Loan Conversion
+The analysis helped identify customer characteristics that could contribute to loan conversion.
 
-<p align="center">
-  <img src="images/education_vs_loan.png" width="750">
-</p>
+🔗 8. Correlation Analysis
 
-Education level was also analyzed to understand its relationship with personal-loan acceptance and customer behavior.
+Correlation analysis was performed to understand relationships between numerical variables.
 
-🔗 Feature Correlation
+Important relationships included:
 
-<p align="center">
-  <img src="images/correlation_heatmap.png" width="800">
-</p>
+flowchart LR
+    A["Age"] <-->|"Strong relationship"| B["Experience"]
+    C["Income"] <-->|"Strong relationship"| D["CCAvg"]
 
-The correlation analysis identified several important relationships, including the strong relationship between Age and Experience and between Income and CCAvg.
+These relationships were considered during feature analysis and model development.
 
-🧹 Data Preparation
+🧹 9. Data Preparation
 
-The data preparation stage included:
+The data preparation process included:
+
+Checking the dataset structure
 
 Checking data types
 
 Checking missing values
 
-Checking duplicate observations
+Checking duplicates
 
 Separating features and target
 
-Removing unnecessary variables where appropriate
-
-Preparing the preprocessing pipeline
+Preparing the preprocessing workflow
 
 Splitting the dataset into training and testing sets
 
-The dataset was divided into:
+Train-Test Split
 
-Training Set → 70%
-Testing Set  → 30%
+pie showData
+    title Dataset Split
+    "Training Set - 70%" : 70
+    "Testing Set - 30%" : 30
 
-The test set was kept separate for final model evaluation.
+The test set was kept separate and used only for final evaluation.
 
-🤖 Machine Learning Workflow
+🤖 10. Machine Learning Workflow
 
-The complete machine learning workflow is:
+The complete workflow is:
 
-Raw Dataset
-     ↓
-Data Cleaning
-     ↓
-Exploratory Data Analysis
-     ↓
-Train/Test Split
-     ↓
-Data Preprocessing
-     ↓
-Baseline Classification Models
-     ↓
-Stratified 5-Fold Cross-Validation
-     ↓
-Permutation Feature Importance
-     ↓
-Feature Selection
-     ↓
-Model Comparison
-     ↓
-Optuna Hyperparameter Tuning
-     ↓
-Classification Threshold Optimization
-     ↓
-Final Model Evaluation
-     ↓
-Model Serialization
-     ↓
-Streamlit Deployment
+flowchart TD
+    A["📥 Raw Dataset"] --> B["🧹 Data Cleaning"]
+    B --> C["🔎 Exploratory Data Analysis"]
+    C --> D["✂️ Train/Test Split"]
+    D --> E["⚙️ Data Preprocessing"]
+    E --> F["🤖 Baseline Models"]
+    F --> G["🔄 Stratified 5-Fold CV"]
+    G --> H["📌 Permutation Feature Importance"]
+    H --> I["🧠 Feature Selection"]
+    I --> J["📊 Model Comparison"]
+    J --> K["⚡ Optuna Hyperparameter Tuning"]
+    K --> L["🎚️ Threshold Optimization"]
+    L --> M["📈 Final Evaluation"]
+    M --> N["💾 Model Serialization"]
+    N --> O["🖥️ Streamlit Application"]
+    O --> P["☁️ Render Deployment"]
 
-🧪 Model Development
+🧪 11. Model Development
 
-Multiple classification approaches were evaluated during the modelling process.
+Different classification approaches were evaluated during model development.
 
-The models were compared using Stratified 5-Fold Cross-Validation.
+The models were evaluated using Stratified 5-Fold Cross-Validation.
 
-Stratification was used because the target variable is highly imbalanced. It ensures that each fold maintains approximately the same proportion of positive and negative customers.
+Stratification was important because the target variable contains only 9.6% positive cases.
 
-The model selection process focused particularly on F1 Score, while also considering Precision, Recall, ROC-AUC, and PR-AUC.
+The primary model-selection metric was F1 Score, supported by Precision, Recall, ROC-AUC, and PR-AUC.
 
-🧠 Feature Selection
+🧠 12. Feature Selection
 
 Permutation-based feature importance was used to identify the most informative predictors.
 
-<p align="center">
-  <img src="images/feature_importance.png" width="800">
-</p>
+The final selected features for the Gradient Boosting model were:
 
-The final selected feature set for the Gradient Boosting model was:
+flowchart TD
+    A["🎯 Final Feature Set"]
+    A --> B["💰 Income"]
+    A --> C["🎓 Education"]
+    A --> D["👨‍👩‍👧‍👦 Family"]
+    A --> E["💳 CCAvg"]
 
-Income
-Education
-Family
-CCAvg
+Why Feature Selection?
 
-These four features provided strong predictive performance while keeping the final model compact and interpretable.
+Feature selection helps to:
 
-⚙️ Model Comparison
+Reduce unnecessary variables
 
-Multiple classification models and feature combinations were evaluated using Stratified 5-Fold Cross-Validation.
+Improve model simplicity
 
-<p align="center">
-  <img src="images/model_comparison.png" width="800">
-</p>
+Improve interpretability
 
-Gradient Boosting performed particularly well and was selected for further optimization.
+Reduce potential noise
 
-🌳 Gradient Boosting + Optuna
+Create a compact prediction interface
+
+The final deployed application therefore uses only:
+
+Income + Education + Family + CCAvg
+
+⚙️ 13. Model Comparison
+
+The classification models were compared using Stratified 5-Fold Cross-Validation.
+
+The model comparison process identified Gradient Boosting as the strongest candidate for further optimization.
+
+flowchart LR
+    A["Candidate Models"] --> B["Cross-Validation"]
+    B --> C["F1 / Precision / Recall"]
+    C --> D["Model Comparison"]
+    D --> E["🌳 Gradient Boosting"]
+
+🌳 14. Gradient Boosting + Optuna
 
 The selected Gradient Boosting model was optimized using Optuna.
 
-The optimization process explored important hyperparameters including:
+Optuna searched for a better combination of hyperparameters rather than relying only on manually selected values.
+
+Parameters explored included:
 
 n_estimators
 
@@ -365,30 +479,42 @@ Tuned Gradient Boosting
 
 0.9393
 
+xychart-beta
+    title "Gradient Boosting F1 Score Improvement"
+    x-axis ["Baseline", "Optuna Tuned"]
+    y-axis "F1 Score" 0.90 --> 0.95
+    bar [0.9274, 0.9393]
+
 The tuned model improved the cross-validation F1 score from 0.9274 to 0.9393.
 
-🎚️ Classification Threshold Optimization
+🎚️ 15. Classification Threshold Optimization
 
-The default classification threshold of 0.50 was not assumed to be optimal.
+The default classification threshold is:
 
-Instead, predicted probabilities were evaluated across different thresholds to find a better balance between Precision and Recall.
+Probability ≥ 0.50 → Class 1
+Probability < 0.50 → Class 0
 
-<p align="center">
-  <img src="images/threshold_optimization.png" width="800">
-</p>
+However, 0.50 is not necessarily the best threshold for an imbalanced marketing problem.
+
+The model probabilities were therefore evaluated across different thresholds.
 
 Selected Threshold
 
 Default Threshold   : 0.5000
 Optimized Threshold : 0.3815
 
-The optimized threshold improved the balance between Precision and Recall and increased the out-of-fold F1 score.
+flowchart LR
+    A["Model Probability"] --> B{"Threshold"}
+    B -->|"≥ 0.3815"| C["🎯 Predict Loan Accepted"]
+    B -->|"< 0.3815"| D["Predict Not Accepted"]
 
-This is particularly useful in a marketing campaign where identifying more potential customers can be more valuable than simply maximizing overall accuracy.
+The optimized threshold improved the balance between Precision and Recall.
 
-📈 Final Model Performance
+📈 16. Final Model Performance
 
-The final Tuned Gradient Boosting Classifier achieved the following results on the held-out test set:
+The final model is a Tuned Gradient Boosting Classifier.
+
+Test Set Performance
 
 Metric
 
@@ -418,101 +544,135 @@ PR-AUC
 
 98.53%
 
-🎯 Confusion Matrix
+Performance Overview
 
-<p align="center">
-  <img src="images/confusion_matrix.png" width="650">
-</p>
+xychart-beta
+    title "Final Model Performance"
+    x-axis ["Accuracy", "Precision", "Recall", "F1", "ROC-AUC", "PR-AUC"]
+    y-axis "Score (%)" 0 --> 100
+    bar [98.80, 95.65, 91.67, 93.62, 99.80, 98.53]
 
-Test Set Results
+🎯 17. Confusion Matrix
+
+The test-set confusion matrix was:
 
                  Predicted
                  No      Yes
 Actual No        900       4
 Actual Yes         8      88
 
-The model correctly identified 88 of the 96 actual positive customers while producing only 4 false positives on the test set.
+Interpretation
 
-📈 ROC Curve
 
-<p align="center">
-  <img src="images/roc_curve.png" width="750">
-</p>
 
-The final model achieved a ROC-AUC of 99.80%, demonstrating strong discrimination between customers who accepted and did not accept the personal loan.
+Predicted No
 
-📊 Precision-Recall Curve
+Predicted Yes
 
-<p align="center">
-  <img src="images/precision_recall_curve.png" width="750">
-</p>
+Actual No
 
-The model achieved a PR-AUC of 98.53%, which is particularly useful for evaluating performance on this imbalanced classification problem.
+900
 
-💡 Business Interpretation
+4
 
-The final model provides a practical way to identify customers who are more likely to accept a personal loan.
+Actual Yes
 
-Instead of contacting every existing customer, the bank can prioritize customers with a higher predicted probability of accepting a personal loan.
+8
 
-The model therefore provides a data-driven approach to customer targeting and can help the bank allocate marketing resources more efficiently.
+88
 
-Existing Customers
-        ↓
-Machine Learning Prediction
-        ↓
-Loan Acceptance Probability
-        ↓
-Identify High-Potential Customers
-        ↓
-Targeted Marketing Campaign
-        ↓
-Potentially Higher Conversion
+The model correctly identified 88 of the 96 actual positive customers while producing only 4 false positives.
 
-🚀 Deployment
+📈 18. ROC-AUC
 
-The final trained model was serialized using Joblib and deployed as an interactive Streamlit web application.
+The final model achieved a ROC-AUC of 99.80%.
 
-The application uses the four selected features:
+This indicates strong discrimination between customers who accepted and did not accept the personal loan.
+
+flowchart LR
+    A["ROC-AUC"] --> B["99.80%"]
+    B --> C["Strong Class Separation"]
+
+📊 19. Precision-Recall Performance
+
+The final model achieved a PR-AUC of 98.53%.
+
+PR-AUC is particularly useful here because the positive class represents only 9.6% of the dataset.
+
+flowchart LR
+    A["Imbalanced Dataset"] --> B["9.6% Positive"]
+    B --> C["Precision-Recall Evaluation"]
+    C --> D["PR-AUC = 98.53%"]
+
+💡 20. Business Interpretation
+
+The model can be used to rank existing customers according to their likelihood of accepting a personal loan.
+
+Instead of contacting every customer:
+
+flowchart TD
+    A["5,000 Existing Customers"]
+    A --> B["ML Prediction"]
+    B --> C["Loan Probability"]
+    C --> D["Customer Ranking"]
+    D --> E["🎯 High-Potential Customers"]
+    E --> F["📣 Targeted Marketing"]
+    F --> G["📈 Potentially Better Conversion"]
+
+This creates a more data-driven customer targeting strategy.
+
+🚀 21. Deployment
+
+The final model was serialized using Joblib and deployed through Streamlit on Render.
+
+The deployed application uses the four selected features:
+
+Input
+
+Purpose
 
 💰 Income
+
+Customer income
+
 🎓 Education
+
+Education category
+
 👨‍👩‍👧‍👦 Family
+
+Family size
+
 💳 CCAvg
 
-The application generates:
+Average credit-card spending
+
+Prediction Flow
+
+flowchart LR
+    A["User Inputs"] --> B["Preprocessing"]
+    B --> C["Trained Gradient Boosting"]
+    C --> D["Probability"]
+    D --> E["Threshold = 0.3815"]
+    E --> F["🎯 Final Prediction"]
+
+🖥️ 22. Application
+
+The deployed Streamlit application provides an interactive interface for entering customer information and receiving a real-time prediction.
+
+Application Output
 
 🎯 Predicted Class
-📊 Probability of Loan Acceptance
-⚙️ Classification Threshold
+📊 Loan Acceptance Probability
+⚙️ Optimized Decision Threshold
 
-🖥️ Application Demo
-
-<p align="center">
-  <img src="images/app_screenshot.png" width="850">
-</p>
-
-The application provides a simple interface where users can enter customer information and receive a real-time loan conversion prediction.
-
-Prediction Interpretation
-
-Class 0 → Customer is predicted not to accept the loan
-
-Class 1 → Customer is predicted to accept the loan
-
-🌐 Live Demo
-
-<p align="center">
+Live Application
 
 <a href="https://customer-loan-conversion-prediction-cr9k.onrender.com/">
-
-<img src="https://img.shields.io/badge/🚀%20TRY%20THE%20LIVE%20MODEL-00C853?style=for-the-badge&logo=streamlit&logoColor=white">
-
+🚀 Open Customer Loan Conversion Prediction
 </a>
 
-</p>
-
-🛠️ Technology Stack
+🛠️ 23. Technology Stack
 
 Category
 
@@ -522,7 +682,7 @@ Technologies
 
 Python
 
-📊 Data Analysis
+📊 Data Processing
 
 Pandas, NumPy
 
@@ -538,15 +698,15 @@ Scikit-learn
 
 Gradient Boosting
 
-⚙️ Hyperparameter Optimization
+⚙️ Optimization
 
 Optuna
 
-💾 Model Serialization
+💾 Serialization
 
 Joblib
 
-🖥️ Web Application
+🖥️ Application
 
 Streamlit
 
@@ -558,7 +718,7 @@ Render
 
 Git, GitHub
 
-📁 Project Structure
+📁 24. Project Structure
 
 Customer-Loan-Conversion-Prediction/
 │
@@ -568,7 +728,7 @@ Customer-Loan-Conversion-Prediction/
 ├── .gitignore
 │
 ├── data/
-│   └── README.md
+│   └── Bank_Personal_Loan_Modelling.csv
 │
 ├── models/
 │   └── bank_loan_model.pkl
@@ -577,49 +737,36 @@ Customer-Loan-Conversion-Prediction/
 │   ├── 01_eda.ipynb
 │   └── 02_modeling.ipynb
 │
-├── reports/
-│   └── pandas_profiling_report.html
-│
-└── images/
-    ├── app_screenshot.png
-    ├── target_distribution.png
-    ├── income_vs_loan.png
-    ├── education_vs_loan.png
-    ├── correlation_heatmap.png
-    ├── feature_importance.png
-    ├── model_comparison.png
-    ├── threshold_optimization.png
-    ├── confusion_matrix.png
-    ├── roc_curve.png
-    └── precision_recall_curve.png
+└── reports/
+    └── analysis_report.html
 
-💻 Installation
+💻 25. Run Locally
 
-1. Clone the Repository
+Clone the repository
 
 git clone https://github.com/Koushikmaity014/-Customer-Loan-Conversion-Prediction.git
 
-2. Navigate to the Project Directory
+Navigate to the project
 
 cd Customer-Loan-Conversion-Prediction
 
-3. Install Dependencies
+Install dependencies
 
 pip install -r requirements.txt
 
-4. Run the Streamlit Application
+Run the application
 
 streamlit run app.py
 
-📌 Project Highlights
+📌 26. Project Highlights
 
 <div align="center">
 
-Metric
+Achievement
 
 Result
 
-👥 Dataset Size
+👥 Dataset
 
 5,000 Customers
 
@@ -627,7 +774,7 @@ Result
 
 9.6%
 
-🧠 Selected Features
+🧠 Final Features
 
 4
 
@@ -635,7 +782,7 @@ Result
 
 Tuned Gradient Boosting
 
-⚙️ Optimization
+⚡ Hyperparameter Tuning
 
 Optuna
 
@@ -647,7 +794,7 @@ Stratified 5-Fold CV
 
 0.3815
 
-📈 Test F1 Score
+📈 Test F1
 
 93.62%
 
@@ -665,7 +812,7 @@ Streamlit + Render
 
 </div>
 
-📚 Learning Outcomes
+📚 27. Learning Outcomes
 
 This project demonstrates practical experience with:
 
@@ -677,19 +824,21 @@ Imbalanced classification
 
 Feature selection
 
+Permutation feature importance
+
 Model comparison
 
 Stratified cross-validation
 
-Permutation feature importance
+Gradient Boosting
 
-Hyperparameter optimization
-
-Optuna
+Optuna hyperparameter optimization
 
 Classification threshold optimization
 
-Precision and Recall analysis
+Precision
+
+Recall
 
 F1 Score
 
@@ -701,11 +850,11 @@ Confusion matrix analysis
 
 Model serialization
 
-Streamlit application development
+Streamlit development
 
 Cloud deployment
 
-🔗 Project Links
+🔗 28. Project Links
 
 💻 GitHub Repository
 
@@ -715,7 +864,7 @@ https://github.com/Koushikmaity014/-Customer-Loan-Conversion-Prediction
 
 https://customer-loan-conversion-prediction-cr9k.onrender.com/
 
-👨‍💻 Author
+👨‍💻 29. Author
 
 <div align="center">
 
@@ -725,17 +874,15 @@ M.Sc. Mathematics & Computing
 
 Indian Institute of Technology Guwahati
 
-<p>
-
 <a href="https://github.com/Koushikmaity014">
 <img src="https://img.shields.io/badge/GitHub-Koushikmaity014-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
+<br><br>
+
 <a href="https://customer-loan-conversion-prediction-cr9k.onrender.com/">
 <img src="https://img.shields.io/badge/Live%20Project-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 </a>
-
-</p>
 
 </div>
 
