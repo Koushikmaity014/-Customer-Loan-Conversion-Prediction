@@ -271,3 +271,120 @@ The trained machine learning model was integrated into an interactive **Streamli
 <p align="center">
   <img src="image/prediction_flowchart.png" width="750">
 </p>
+---
+# 🚀 Deployment
+
+The final machine learning application was deployed as a web application using **Streamlit** and **Render**.
+
+### ☁️ Deployment Architecture
+
+<p align="center">
+  <img src="image/09_deployment_architecture.png" width="850">
+</p>
+
+### 🔄 Deployment Workflow
+
+```text
+Trained ML Model
+        ↓
+Model Serialization
+        ↓
+Streamlit Application
+        ↓
+GitHub Repository
+        ↓
+Render Cloud Deployment
+        ↓
+Live Web Application
+```
+
+---
+
+# 🛠️ Technology Stack
+
+The project was developed using the following tools and technologies:
+
+| Category | Technologies |
+|---|---|
+| 🐍 Programming | Python |
+| 📊 Data Analysis | Pandas, NumPy |
+| 📈 Visualization | Matplotlib, Seaborn |
+| 🤖 Machine Learning | Scikit-learn |
+| 🧠 Feature Selection | Permutation Feature Importance |
+| ⚡ Hyperparameter Tuning | Optuna |
+| 🖥️ Web Application | Streamlit |
+| 💾 Model Serialization | Joblib |
+| 💻 Version Control | Git, GitHub |
+| ☁️ Deployment | Render |
+
+### 🔑 Key Machine Learning Techniques
+
+- Stratified 5-Fold Cross-Validation
+- Permutation Feature Importance
+- Feature SelectionF1 Score, ROC-AUC and PR-AUC evaluation
+---
+# 📁 Project Structure
+
+```text
+Customer-Loan-Conversion-Prediction/
+│
+├── deployment/
+│   └── app.py
+│
+├── image/
+│   ├── project_first_page.png
+│   ├── project_overview.png
+│   ├── business_problem.png
+│   ├── dataset_summary.png
+│   ├── 02_target_distribution.png
+│   ├── customer_overview.png
+│   ├── 08_feature_importance.png
+│   ├── 04_optuna_improvement.png
+│   ├── 07_threshold_optimization.png
+│   ├── 05_final_model_performance.png
+│   ├── 06_confusion_matrix.png
+│   ├── app_screenshot.png
+│   └── 09_deployment_architecture.png
+│
+├── Bank_Personal_Loan_Modelling.csv
+├── bank_personal_loan_cleaned.csv
+├── bank1.ipynb
+├── model.ipynb
+├── model.pkl
+├── pandas_profiling_report.html
+├── README.md
+└── requirements.txt
+```
+---
+# 👨‍💻 Author
+
+**Koushik Maity**  
+M.Sc. Mathematics & Computing | IIT Guwahati
+
+This project was developed as an end-to-end machine learning project focused on **customer targeting and personal-loan conversion prediction**.
+
+### 🔗 Project Links
+
+<p align="center">
+
+<a href="https://customer-loan-conversion-prediction-cr9k.onrender.com/">
+<img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-Open%20Application-00C853?style=for-the-badge&logo=streamlit&logoColor=white">
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://github.com/Koushikmaity014/-Customer-Loan-Conversion-Prediction">
+<img src="https://img.shields.io/badge/💻%20GITHUB-View%20Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+**Built with Python • Scikit-learn • Optuna • Streamlit • Render**
+
+</div>
