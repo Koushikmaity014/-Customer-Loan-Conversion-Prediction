@@ -273,7 +273,8 @@ The trained machine learning model was integrated into an interactive **Streamli
 <p align="center">
   <img src="image/prediction_flowchart.png" width="750">
 </p>
----
+
+
 # 🚀 Deployment
 
 The final machine learning application was deployed as a web application using **Streamlit** and **Render**.
