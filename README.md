@@ -46,7 +46,7 @@ In this project, the bank wants to identify customers who are more likely to acc
 
 The previous campaign had a conversion rate of **9.6%**, with only **480 out of 5,000 customers** accepting the personal loan. This creates a challenging **imbalanced classification problem** where accurately identifying the positive customers is more important than simply maximizing overall accuracy.
 
-### 🎯 Business Goal
+# 🎯 Business Goal
 
 The primary goal is to build a machine learning system that can:
 
