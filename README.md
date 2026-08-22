@@ -268,16 +268,6 @@ The trained machine learning model was integrated into an interactive **Streamli
 - 🧠 Final predicted class
 
 ### 🔄 Prediction Flow
-
-```text
-Customer Information
-        ↓
-Data Preprocessing
-        ↓
-Trained Gradient Boosting Model
-        ↓
-Loan Acceptance Probability
-        ↓
-Optimized Threshold (0.3815)
-        ↓
-Final Prediction
+<p align="center">
+  <img src="image/prediction_flowchart.png" width="750">
+</p>
