@@ -202,19 +202,32 @@ Optuna performs automated hyperparameter search by exploring different parameter
 
 The optimization process focused on improving the model's **F1 Score**, which is particularly important for this imbalanced classification problem.
 
+<p align="center">
+  <img src="image/optuna.png" width="800">
+</p>
+
+---
+# 🎚️ Classification Threshold Optimization
+
+The default classification threshold of **0.50** was further optimized to improve the balance between **Precision and Recall**.
+
+Instead of directly using the default probability threshold, different threshold values were evaluated on the validation data and the threshold providing the best **F1 Score** was selected.
+
+<p align="center">
+  <img src="image/07_threshold_optimization.png" width="750">
+</p>
+
+### 🔄 Optimization Process
+
 ```text
-Baseline Model
-      ↓
-Define Hyperparameter Search Space
-      ↓
-Optuna Trial
-      ↓
-Stratified Cross-Validation
-      ↓
-Evaluate F1 Score
-      ↓
-Search for Better Parameters
-      ↓
-Best Hyperparameters
-      ↓
-Optimized Model
+Predicted Probabilities
+        ↓
+Evaluate Multiple Thresholds
+        ↓
+Calculate Precision & Recall
+        ↓
+Calculate F1 Score
+        ↓
+Select Best Threshold
+        ↓
+Optimal Threshold = 0.3815
