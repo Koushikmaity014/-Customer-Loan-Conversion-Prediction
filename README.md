@@ -221,4 +221,32 @@ Instead of directly using the default probability threshold, different threshold
 <p align="center">
   <img src="image/optimaization_process.png" width="750">
 </p>
+---
+# 🏆 Final Model Performance
 
+After feature selection, Optuna hyperparameter optimization, and classification threshold tuning, the final model was evaluated on the **unseen test dataset**.
+
+<p align="center">
+  <img src="image/05_final_model_performance.png" width="800">
+</p>
+
+### 📊 Final Test Performance
+
+| Metric | Score |
+|---|---:|
+| ⚖️ F1 Score | **93.62%** |
+| 📈 ROC-AUC | **99.80%** |
+
+### 💡 Performance Summary
+
+The final model achieved a **93.62% F1 Score** and **99.80% ROC-AUC** on the unseen test dataset.
+
+The **F1 Score** reflects the balance between Precision and Recall, while the high **ROC-AUC** indicates that the model has a strong ability to distinguish between customers who accepted and did not accept the personal loan.
+
+The final model combines:
+
+- 🧠 Feature Selection
+- ⚡ Optuna Hyperparameter Optimization
+- 🎚️ Classification Threshold Optimization
+- 🏆 Final Model Evaluation
+---
