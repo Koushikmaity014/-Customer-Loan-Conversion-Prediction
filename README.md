@@ -92,3 +92,51 @@ Only **480 customers (9.6%)** accepted the loan, while **4,520 customers (90.4%)
 Because of the class imbalance, model performance is evaluated using **Precision, Recall, F1 Score, ROC-AUC, and PR-AUC** rather than relying on accuracy alone.
 
 ---
+# 🔎 Exploratory Data Analysis
+
+Exploratory Data Analysis was performed to understand the customer population, identify important patterns, examine relationships between variables, and discover factors associated with personal-loan acceptance.
+
+### 📊 Analysis Covered
+
+- Distribution of numerical features
+- Customer characteristics across loan classes
+- Income and credit-card spending patterns
+- Education and family characteristics
+- Feature correlations
+- Relationships between important features and the target variable
+
+### 💰 Income vs Loan Acceptance
+
+<p align="center">
+  <img src="image/income_vs_loan.png" width="650">
+</p>
+
+Customers with higher income levels generally showed a greater tendency toward personal-loan acceptance, making **Income** an important predictor.
+
+### 🎓 Education and Loan Acceptance
+
+<p align="center">
+  <img src="image/education_vs_loan.png" width="650">
+</p>
+
+Loan acceptance varies across education levels, indicating that **Education** provides useful information for distinguishing potential loan customers.
+
+### 🔗 Feature Correlation
+
+<p align="center">
+  <img src="image/correlation_heatmap.png" width="700">
+</p>
+
+The correlation analysis highlights important relationships among the features, including the strong relationships between **Age and Experience** and between **Income and CCAvg**.
+
+### 💡 Key EDA Insights
+
+| Insight | Observation |
+|---|---|
+| 💰 Income | Strong relationship with loan acceptance |
+| 🎓 Education | Different acceptance patterns across education levels |
+| 💳 CCAvg | Higher spending is associated with higher loan potential |
+| 👤 Age & Experience | Strongly correlated |
+| 💵 Income & CCAvg | Strongly correlated |
+
+---
