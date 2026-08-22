@@ -115,3 +115,29 @@ with personal-loan acceptance.
 These observations were used to guide the subsequent **feature selection and model development** stages.
 
 ---
+# 🧠 Feature Selection
+
+To identify the most informative variables for predicting personal-loan acceptance, **Permutation Feature Importance** was used. This approach measures how much model performance changes when the values of a feature are randomly shuffled.
+
+<p align="center">
+  <img src="image/08_feature_importance.png" width="750">
+</p>
+
+### 🎯 Selected Features
+
+The feature-selection process identified the following features as the most informative:
+
+| Feature | Description |
+|---|---|
+| 💰 `Income` | Customer income |
+| 🎓 `Education` | Education level |
+| 👨‍👩‍👧 `Family` | Number of family members |
+| 💳 `CCAvg` | Average credit-card spending |
+
+These selected features were then used in the **subsequent model training and hyperparameter optimization stages**.
+
+### 💡 Key Insight
+
+Feature selection helped reduce the model input to the variables providing the strongest predictive information, resulting in a more focused and interpretable model.
+
+---
