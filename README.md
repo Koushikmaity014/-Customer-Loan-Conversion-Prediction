@@ -21,7 +21,7 @@
 
 <br><br>
 
-<img src="images/01_project_overview.png" width="900">
+<img src="image/01_project_overview.png" width="900">
 
 </div>
 
@@ -188,7 +188,7 @@ This makes the project an imbalanced binary classification problem.
 
 📉 Target Distribution
 
-<img src="images/02_target_distribution.png" width="850">
+<img src="image/02_target_distribution.png" width="850">
 
 The target distribution shows a significant imbalance between customers who did not accept the loan and customers who accepted it.
 
@@ -208,7 +208,7 @@ PR-AUC
 
 👥 Customer Portfolio
 
-<img src="images/03_customer_overview.png" width="850">
+<img src="image/03_customer_overview.png" width="850">
 
 The dataset contains 5,000 customers, of which 480 accepted the personal loan.
 
@@ -369,7 +369,7 @@ Using a smaller feature set makes the final prediction system compact and easier
 
 📊 Feature Importance
 
-<img src="images/08_feature_importance.png" width="850">
+<img src="image/08_feature_importance.png" width="850">
 
 Permutation-based feature importance was used to understand the contribution of the selected variables.
 
@@ -493,7 +493,7 @@ max_features
 
 📈 Optuna Improvement
 
-<img src="images/04_optuna_improvement.png" width="850">
+<img src="image/04_optuna_improvement.png" width="850">
 
 The cross-validation F1 score improved from:
 
@@ -531,7 +531,7 @@ Optimized Threshold : 0.3815
 
 📊 Threshold Optimization
 
-<img src="images/07_threshold_optimization.png" width="850">
+<img src="image/07_threshold_optimization.png" width="850">
 
 Threshold optimization is useful for this marketing problem because the cost of missing a potential customer can differ from the cost of contacting a customer who does not convert.
 
@@ -571,7 +571,7 @@ Score
 
 📊 Final Performance Visualization
 
-<img src="images/05_final_model_performance.png" width="900">
+<img src="image/05_final_model_performance.png" width="900">
 
 The final model achieved strong performance across the major classification metrics.
 
@@ -579,7 +579,7 @@ The 93.62% F1 Score is particularly important because this is an imbalanced clas
 
 🎯 Confusion Matrix
 
-<img src="images/06_confusion_matrix.png" width="750">
+<img src="image/06_confusion_matrix.png" width="750">
 
 Test Set Confusion Matrix
 
@@ -663,7 +663,7 @@ The application provides:
 
 🖥️ Deployment Architecture
 
-<img src="images/09_deployment_architecture.png" width="900">
+<img src="image/09_deployment_architecture.png" width="900">
 
 Prediction Flow
 
@@ -760,7 +760,7 @@ Customer-Loan-Conversion-Prediction/
 ├── notebooks/
 │   └── modeling_and_analysis.ipynb
 │
-└── images/
+└── image/
     ├── 01_project_overview.png
     ├── 02_target_distribution.png
     ├── 03_customer_overview.png
