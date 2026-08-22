@@ -229,7 +229,7 @@ After feature selection, Optuna hyperparameter optimization, and classification 
 <p align="center">
   <img src="image/05_final_model_performance.png" width="800">
 </p>
-
+---
 ### 📊 Final Test Performance
 
 | Metric | Score |
