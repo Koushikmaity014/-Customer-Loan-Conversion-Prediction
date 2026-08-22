@@ -104,12 +104,13 @@ with personal-loan acceptance.
 
 ### 💡 Key Findings
 
-- **Age:** Most customers are concentrated around the 30–45 age range.
-- **Income:** Most customers have income levels concentrated around 20K–80K.
-- **CCAvg:** Credit-card spending is right-skewed, with most customers spending around 1K–3K.
-- **Class imbalance:** Only 9.6% of customers accepted the personal loan.
-- **Correlation:** Age and Experience are highly correlated, while Income and CCAvg also show a strong relationship.
-- **Loan acceptance:** Income, CCAvg, Education, and Family show relatively stronger relationships with Personal Loan acceptance.
+| Insight | Observation |
+|---|---|
+| 💰 Income | Strong relationship with loan acceptance |
+| 🎓 Education | Different acceptance patterns across education levels |
+| 💳 CCAvg | Higher spending is associated with higher loan potential |
+| 👤 Age & Experience | Strongly correlated |
+| 💵 Income & CCAvg | Strongly correlated |
 
 These observations were used to guide the subsequent **feature selection and model development** stages.
 
