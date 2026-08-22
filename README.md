@@ -39,7 +39,7 @@ The project follows a complete machine learning workflow, starting from **data e
   <img src="image/project overview.png" width="950">
 </p>
 
-### 💼 Business Problem
+# 💼 Business Problem
 
 Banks have a large number of existing customers, but only a small proportion of them may be interested in purchasing a personal loan.
 
