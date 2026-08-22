@@ -86,7 +86,7 @@ The target variable is **`Personal Loan`**, which indicates whether a customer a
 Only **480 customers (9.6%)** accepted the loan, while **4,520 customers (90.4%)** did not. This makes the dataset a **highly imbalanced binary classification problem**.
 
 <p align="center">
-  <img src="image/02_target_distribution.png" width="450">
+  <img src="image/02_target_distribution.png" width="300">
 </p>
 
 Because of the class imbalance, model performance is evaluated using **Precision, Recall, F1 Score, ROC-AUC, and PR-AUC** rather than relying on accuracy alone.
