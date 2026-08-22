@@ -157,3 +157,34 @@ These selected features were then used in the **subsequent model training and hy
 Feature selection helped reduce the model input to the variables providing the strongest predictive information, resulting in a more focused and interpretable model.
 
 ---
+# 🤖 Machine Learning Models
+
+Several classification algorithms were evaluated to determine the most suitable model for predicting personal-loan acceptance.
+
+### 🧪 Models Evaluated
+
+| Model | Purpose |
+|---|---|
+| Logistic Regression | Linear classification baseline |
+| K-Nearest Neighbors | Distance-based classification |
+| Naive Bayes | Probabilistic classification |
+| Decision Tree | Rule-based classification |
+| Random Forest | Ensemble-based classification |
+| Gradient Boosting | Sequential ensemble learning |
+| Support Vector Machine | Margin-based classification |
+
+The models were evaluated using **Stratified 5-Fold Cross-Validation** to maintain the class distribution across validation folds.
+
+### 📏 Evaluation Metrics
+
+Because the dataset is highly imbalanced, multiple evaluation metrics were considered:
+
+- **Precision** — How many predicted positive customers actually accepted the loan.
+- **Recall** — How many actual loan customers were correctly identified.
+- **F1 Score** — Balance between Precision and Recall.
+- **ROC-AUC** — Overall ability to distinguish between the two classes.
+- **PR-AUC** — Performance focused on the minority positive class.
+
+The model comparison provided a baseline for selecting the most promising algorithm before applying **feature selection and Optuna hyperparameter optimization**.
+
+---
