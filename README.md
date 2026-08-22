@@ -38,6 +38,8 @@ The project follows a complete machine learning workflow, starting from **data e
 <p align="center">
   <img src="image/project overview.png" width="950">
 </p>
+</div>
+
 ---
 # 💼 Business Problem
 
@@ -61,4 +63,6 @@ The primary goal is to build a machine learning system that can:
 <p align="center">
   <img src="image/business_problem.png" width="950">
 </p>
+</div>
+
 ---
