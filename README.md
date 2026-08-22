@@ -35,27 +35,6 @@ The project follows a complete machine learning workflow, starting from **data e
 
 ### 🔄 Project Workflow
 
-```text
-📊 Dataset
-   ↓
-🔎 Exploratory Data Analysis
-   ↓
-🧹 Data Preprocessing
-   ↓
-🤖 Model Development
-   ↓
-🧠 Feature Selection
-   ↓
-🔄 Stratified Cross-Validation
-   ↓
-⚡ Optuna Hyperparameter Tuning
-   ↓
-🎚️ Threshold Optimization
-   ↓
-🏆 Model Evaluation
-   ↓
-💾 Model Serialization
-   ↓
-🖥️ Streamlit Application
-   ↓
-🚀 Render Deployment
+<p align="center">
+  <img src="image/project overview.png" width="950">
+</p>
