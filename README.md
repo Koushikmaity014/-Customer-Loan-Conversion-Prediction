@@ -38,3 +38,25 @@ The project follows a complete machine learning workflow, starting from **data e
 <p align="center">
   <img src="image/project overview.png" width="950">
 </p>
+# 💼 Business Problem
+
+Banks have a large number of existing customers, but only a small proportion of them may be interested in purchasing a personal loan.
+
+In this project, the bank wants to identify customers who are more likely to accept a personal loan so that marketing campaigns can focus on high-potential customers rather than contacting the entire customer base.
+
+The previous campaign had a conversion rate of **9.6%**, with only **480 out of 5,000 customers** accepting the personal loan. This creates a challenging **imbalanced classification problem** where accurately identifying the positive customers is more important than simply maximizing overall accuracy.
+
+### 🎯 Business Goal
+
+The primary goal is to build a machine learning system that can:
+
+- 🎯 Identify customers with a higher probability of accepting a personal loan.
+- 📣 Support targeted marketing campaigns.
+- 💰 Reduce unnecessary marketing efforts.
+- 📈 Improve the efficiency of customer targeting.
+- 🤝 Help the bank focus on customers with higher conversion potential.
+
+### 🔄 From Mass Marketing to Targeted Marketing
+<p align="center">
+  <img src="image/business problem.png" width="950">
+</p>
