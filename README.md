@@ -94,49 +94,23 @@ Because of the class imbalance, model performance is evaluated using **Precision
 ---
 # 🔎 Exploratory Data Analysis
 
-Exploratory Data Analysis was performed to understand the customer population, identify important patterns, examine relationships between variables, and discover factors associated with personal-loan acceptance.
-
-### 📊 Analysis Covered
-
-- Distribution of numerical features
-- Customer characteristics across loan classes
-- Income and credit-card spending patterns
-- Education and family characteristics
-- Feature correlations
-- Relationships between important features and the target variable
-
-### 💰 Income vs Loan Acceptance
+Exploratory Data Analysis was performed to understand customer characteristics,
+feature distributions, relationships between variables, and patterns associated
+with personal-loan acceptance.
 
 <p align="center">
-  <img src="image/income_vs_loan.png" width="650">
+  <img src="image/customer_overview.png" width="950">
 </p>
 
-Customers with higher income levels generally showed a greater tendency toward personal-loan acceptance, making **Income** an important predictor.
+### 💡 Key Findings
 
-### 🎓 Education and Loan Acceptance
+- **Age:** Most customers are concentrated around the 30–45 age range.
+- **Income:** Most customers have income levels concentrated around 20K–80K.
+- **CCAvg:** Credit-card spending is right-skewed, with most customers spending around 1K–3K.
+- **Class imbalance:** Only 9.6% of customers accepted the personal loan.
+- **Correlation:** Age and Experience are highly correlated, while Income and CCAvg also show a strong relationship.
+- **Loan acceptance:** Income, CCAvg, Education, and Family show relatively stronger relationships with Personal Loan acceptance.
 
-<p align="center">
-  <img src="image/education_vs_loan.png" width="650">
-</p>
-
-Loan acceptance varies across education levels, indicating that **Education** provides useful information for distinguishing potential loan customers.
-
-### 🔗 Feature Correlation
-
-<p align="center">
-  <img src="image/correlation_heatmap.png" width="700">
-</p>
-
-The correlation analysis highlights important relationships among the features, including the strong relationships between **Age and Experience** and between **Income and CCAvg**.
-
-### 💡 Key EDA Insights
-
-| Insight | Observation |
-|---|---|
-| 💰 Income | Strong relationship with loan acceptance |
-| 🎓 Education | Different acceptance patterns across education levels |
-| 💳 CCAvg | Higher spending is associated with higher loan potential |
-| 👤 Age & Experience | Strongly correlated |
-| 💵 Income & CCAvg | Strongly correlated |
+These observations were used to guide the subsequent **feature selection and model development** stages.
 
 ---
